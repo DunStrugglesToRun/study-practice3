@@ -8,7 +8,8 @@
     "sass": "sass --watch styles/style.scss:styles/style.css --no-source-map --silence-deprecation=import",
     "postcss": "postcss styles/style.css --output styles/style.min.css --watch",
     "dev": "npm run build && (npm run sass & npm run postcss)",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "css-minify -f styles/style.css -o styles"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   "type": "commonjs",
   "devDependencies": {
     "autoprefixer": "^10.6.0",
+    "css-minify": "^2.1.0",
     "cssnano": "^9.0.4",
     "postcss": "^8.5.28",
     "postcss-cli": "^12.0.0",
