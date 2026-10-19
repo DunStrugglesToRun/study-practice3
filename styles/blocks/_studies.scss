@@ -47,8 +47,8 @@
     }
 
     @include mobile {
-      min-width: 350px;
-      padding: 42px 50px;
+      min-width: 300px;
+      padding: 42px 30px;
       color: var(--color-light);
       background-color: var(--color-dark);
       border-radius: var(--border-radius-large);

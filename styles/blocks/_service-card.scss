@@ -13,6 +13,8 @@
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 27px;
+    column-gap: 0;
+    padding-inline: 30px;
   }
 
   &--accent-bg {

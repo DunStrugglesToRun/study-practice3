@@ -5,9 +5,9 @@
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow);
 
-  @include mobile { 
-    padding-inline: 50px;
-  }
+  // @include mobile { 
+  //   padding-inline: 50px;
+  // }
 
   &__header {
     display: flex;
